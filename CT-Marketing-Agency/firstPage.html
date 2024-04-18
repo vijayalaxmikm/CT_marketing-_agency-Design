@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <style>
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .child-image {
+            left: 30%;
+            padding-top: 2%;
+            position: absolute;
+            width: 10%;
+            height: 16%;
+            padding-left: 5px;
+            margin-left: 8%;
+        }
+
+        .child-image1 {
+            position: absolute;
+            padding-top: 2%;
+            left: 20%;
+            width: 10%;
+            height: 16%;
+            margin-left: 8%;
+        }
+
+        .child-image2 {
+            left: 40%;
+            padding-top: 2%;
+            position: absolute;
+            width: 10%;
+            height: 16%;
+            padding-left: 5px;
+            margin-left: 8%;
+        }
+
+        .child-image3 {
+            left: 50%;
+            padding-top: 2%;
+            position: absolute;
+            width: 10%;
+            height: 16%;
+            padding-left: 5px;
+            margin-left: 8%;
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 230vh;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .centered {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(96, 130, 182);
+        }
+
+        .number {
+            color: rgb(204, 204, 255);
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="./titleImg.jpeg-35.jpeg" alt="Parent Image" style="height: 30rem; width:100%;">
+        <div class="centered"><img src="./block_img.PNG" style="padding-bottom: 1%;"></div>
+    </div>
+
+    <footer><img src="./titleImg.jpeg-4.jpeg" style="width: 100%;">
+        <img class="child-image1" src="./titleImg.jpeg-31.jpeg" alt="Child Image">
+        <img class="child-image" src="./titleImg.jpeg-29.jpeg" alt="Child Image">
+        <img class="child-image2" src="./titleImg.jpeg-31.jpeg" alt="Child Image">
+        <img class="child-image3" src="./titleImg.jpeg-29.jpeg" alt="Child Image">
+    </footer>
+</body>
+
+</html>
